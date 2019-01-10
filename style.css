@@ -1,0 +1,40 @@
+body {
+    font-family: "roboto condensed";
+}
+
+/* first page */
+.home {
+    background-Image: URL("./images/back.png");
+}
+
+
+.logo {
+    width: 500px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* end of first page */
+
+/* second page */
+.top-bar {
+    background-Image: URL("./images/back.png");
+    height: 120px;
+    margin-bottom: 70px;
+
+}
+
+.logo2 {
+    width: 400px;
+    margin-top: 30px;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.card:hover {
+    filter: brightness(90%);
+    cursor: pointer;
+}
