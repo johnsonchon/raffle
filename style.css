@@ -38,3 +38,12 @@ body {
     filter: brightness(90%);
     cursor: pointer;
 }
+
+.card-click {
+    opacity: 0.2;
+    border: none;
+}
+
+.card-b-click {
+    border: none !important;
+}
